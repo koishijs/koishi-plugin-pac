@@ -1,0 +1,53 @@
+{
+  "name": "koishi-plugin-pac",
+  "description": "Proxy Auto Config",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Shigma <shigma10826@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-pac.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-pac/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-pac",
+  "scripts": {
+    "build": "atsc -b"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "pac",
+    "proxy",
+    "agent",
+    "protocol",
+    "auto",
+    "configuration"
+  ],
+  "koishi": {
+    "description": {
+      "en": "Proxy Auto Config",
+      "zh": "PAC 代理协议支持"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "atsc": "^1.2.2",
+    "koishi": "^4.12.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "pac-proxy-agent": "^5.0.0"
+  }
+}
